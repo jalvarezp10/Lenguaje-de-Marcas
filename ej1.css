@@ -1,0 +1,14 @@
+tr:nth-child(even){background: aqua;}
+tr:nth-child(odd){background:yellow;}
+td{border-collapse:collapse;
+    border-bottom: blueviolet;
+    border-bottom-width: 10%;
+
+
+}
+thead th{background-color:black;
+    color: white;
+    
+
+}
+tr:hover{background-color: blueviolet;color: chocolate;}
