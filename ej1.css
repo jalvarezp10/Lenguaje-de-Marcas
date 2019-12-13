@@ -1,14 +1,94 @@
-tr:nth-child(even){background: aqua;}
-tr:nth-child(odd){background:yellow;}
-td{border-collapse:collapse;
-    border-bottom: blueviolet;
-    border-bottom-width: 10%;
+/*BOX-SIZING*/
+*{
+    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    color:white;
+
+
 
 
 }
-thead th{background-color:black;
+/*Estilos para el menu*/
+ header{
+    background-color: black;
+}
+ div header {
+    background-color: black;
     color: white;
+   
+    font-weight: 500;
+    
+    text-align: center;
+    
+    
+}
+
+div header p {
+    background-color: white;
+    color: black;
+    text-align: right;
+}
+nav{
+    background-color: black;
+}
+.header ul li{
+
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+.header ul li:hover{
+    background-color: white;
+    color: black;
+
+}
+div div h4{
+    background-color: black;
+    color: white;
+   
+
+}
+.mio{
+    float: left;
+    width:35%;
+    height: 50%;
     
 
 }
-tr:hover{background-color: blueviolet;color: chocolate;}
+.po{
+    background-color: grey;
+    color: black;
+}
+.pi{
+    background-color: white;
+    color: black;
+}
+div div .gris{
+    background-color: grey;
+    
+}
+
+.foto{
+    float: left;
+    width: 20%;
+    margin-left: 30%;
+    padding: 0.5%;
+    background-color: gray;
+    text-align: center;
+    color: black;
+}
+
+.password{
+    float: right;
+}
+footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
