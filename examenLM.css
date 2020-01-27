@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+div.container{
+    display: inline-block;
+    height: 2rem;
+    background-color: mediumvioletred;
+    color: white;
+}
+div.container :hover{
+    background-color: white;
+    color: mediumvioletred;
+}
+div.container header div{
+    float: left;
+}
+div.ban{
+    align-items: center;
+    padding-top: 15%;
+}
+div.tweets{
+    width: 15%;
+    height: 15%;
+    float: right;
+
+}
+
+footer{
+    display: inline-block;
+    height: 1,5rem;
+    background-color: mediumvioletred;
+    color: white;
+}
+
+
+    
+
